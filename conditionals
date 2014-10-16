@@ -1,0 +1,12 @@
+# Make sure that the_flying_circus() returns True
+def the_flying_circus():
+    if 100 == 10**2:    
+        return True
+        # the code inside this block!
+    elif True and not False != True:
+        return False
+    
+    else: 
+        return False
+        
+        # You'll want to add the else statement, too!
