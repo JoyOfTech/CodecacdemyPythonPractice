@@ -1,0 +1,12 @@
+fruits = ['banana', 'apple', 'orange', 'tomato', 'pear', 'grape']
+
+print 'You have...'
+for f in fruits:
+    if f == 'tomato':
+        print 'A tomato is not a fruit!' # (It actually is.)
+        break
+    print 'A', f
+else:
+    print 'A fine selection of fruits!'
+    
+    #this is a little different from the way we learned loops in HMC Lesson 2. Still trying to understand the "break" aspect.
