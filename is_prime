@@ -1,0 +1,8 @@
+def is_prime(x):
+    if x < 2:
+        return False
+    for n in range(2, x - 1): #for each number n from 2 to x - 1...
+        if x % n == 0: # test if x is evenly divisible by
+            return False
+    return True #if none of them are, then return True
+     
