@@ -1,0 +1,6 @@
+import math
+
+def factorial(x):
+    return math.factorial(x)
+    
+#this is the most straight-forward way to do it    
