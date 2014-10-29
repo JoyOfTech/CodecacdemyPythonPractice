@@ -1,0 +1,7 @@
+def reverse(text): #define a function called reverse
+    x = len(text) #that takes a string text and returns that string in reverse
+    reverse_text = ""
+    for i in text:
+        reverse_text = reverse_text + text[x-1]
+        x = x - 1
+    return reverse_text
