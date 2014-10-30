@@ -1,0 +1,4 @@
+#Write a function called censor that takes two strings, text and word, as input. It should return the txt with the word you chose replaced with asterisks
+
+def censor(text, word):
+    return text.replace(word,"*" * len(word))
