@@ -1,0 +1,9 @@
+#Define a function called count that has two arguments called sequence and item
+#Return the number of times the item occurs in the list.   
+def count(sequence, item):
+    x = 0
+    for i in range(len(sequence)):
+        result = sequence[i]
+        if result == item:
+            x += 1
+    return x
