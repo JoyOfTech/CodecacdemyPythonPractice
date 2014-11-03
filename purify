@@ -1,0 +1,7 @@
+def purify(lst): #call it lst instead of list because list is a function in python
+    result = [] #start with empty list
+    for x in lst:
+        if x % 2 == 0: #loop through numbers. if the number is even
+            result.append(x) #add it to the list
+    return result
+    
